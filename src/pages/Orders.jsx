@@ -58,7 +58,7 @@ export default function Orders() {
     const slideRefs = useRef([]);
 
     useEffect(() => {
-        fetch(`https://deliverables-backend.onrender.com/deliverables?phone=${phone || ""}`)
+        fetch(`http://127.0.0.1:8000?phone=${phone || ""}`)
             .then(r => r.json())
             .then(data => {
                 const g = {};
