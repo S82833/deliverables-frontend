@@ -134,8 +134,8 @@ export default function Orders() {
 
                             <div className="image-preview-card">
                                 <strong>Imagen</strong>
-                                <img src={selected["Link Cover Image Final"]} style={{ maxWidth: 200 }} />
-                                <button className="copy-btn" onClick={() => window.open(selected["Link Cover Image Final"], "_blank")}>⬇️ Descargar imagen</button>
+                                <img src={selected["Link Cover Image"]} style={{ maxWidth: 200 }} />
+                                <button className="copy-btn" onClick={() => window.open(selected["Link Cover Image"], "_blank")}>⬇️ Descargar imagen</button>
                             </div>
 
                             {Array.isArray(selected["Short Hooks Images"]) && selected["Short Hooks Images"][0]?.url && (
