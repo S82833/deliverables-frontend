@@ -141,6 +141,9 @@ export default function Orders() {
                             {Array.isArray(selected["Short Hooks Images"]) && selected["Short Hooks Images"][0]?.url && (
                                 <div className="slide-item">
                                     <strong>Slide 0 — Imagen</strong>
+                                    <br></br>
+                                    <a href={selected["Short Hooks Images"][0].url} target="_blank">Link a la imagen</a>
+                                    <br></br>
                                     <img src={selected["Short Hooks Images"][0].url} style={{ maxWidth: 200 }} />
                                 </div>
                             )}
