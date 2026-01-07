@@ -134,7 +134,9 @@ export default function Orders() {
 
                             <div className="image-preview-card">
                                 <strong>Imagen</strong>
+                                <br></br>
                                 <img src={selected["Link Cover Image"]} style={{ maxWidth: 200 }} />
+                                <br></br>
                                 <button className="copy-btn" onClick={() => window.open(selected["Link Cover Image"], "_blank")}>⬇️ Descargar imagen</button>
                             </div>
 
