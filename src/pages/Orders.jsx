@@ -132,9 +132,8 @@ export default function Orders() {
                             <a href={first(selected["Sound Link"])} target="_blank">🎵 Abrir audio</a>
                             <button className="copy-btn" onClick={() => copyToClipboard(first(selected["Sound Link"]))}>📋 Copiar link</button>
 
+                            <h3>Imagen</h3>
                             <div className="image-preview-card">
-                                <strong>Imagen</strong>
-                                <br></br>
                                 <img src={selected["Link Cover Image"]} style={{ maxWidth: 200 }} />
                                 <br></br>
                                 <button className="copy-btn" onClick={() => window.open(selected["Link Cover Image"], "_blank")}>⬇️ Descargar imagen</button>
